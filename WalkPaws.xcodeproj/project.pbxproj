@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		D56735FE2FE997130063C4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56735F52FE997130063C4B2 /* Assets.xcassets */; };
 		D56736002FE997130063C4B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56735F82FE997130063C4B2 /* LaunchScreen.storyboard */; };
-		D56736012FE997130063C4B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56735FA2FE997130063C4B2 /* Main.storyboard */; };
 		D56736022FE997130063C4B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56735F42FE997130063C4B2 /* AppDelegate.swift */; };
 		D56736032FE997130063C4B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56735FB2FE997130063C4B2 /* SceneDelegate.swift */; };
-		D56736042FE997130063C4B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56735FC2FE997130063C4B2 /* ViewController.swift */; };
 		D56736062FE997260063C4B2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736052FE997260063C4B2 /* UserModel.swift */; };
+		D567361A2FEAAC400063C4B2 /* img_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736192FEAAC400063C4B2 /* img_bottom.png */; };
+		D567361C2FEAAD490063C4B2 /* img_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = D567361B2FEAAD490063C4B2 /* img_intro.png */; };
+		D567361E2FEAAD560063C4B2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D567361D2FEAAD560063C4B2 /* logo.png */; };
+		D56736242FEAC2030063C4B2 /* IntroController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56736232FEAC2030063C4B2 /* IntroController.xib */; };
+		D56736252FEAC2030063C4B2 /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736222FEAC2030063C4B2 /* IntroController.swift */; };
+		D56736302FEAC6350063C4B2 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362E2FEAC6350063C4B2 /* Manrope-Regular.ttf */; };
+		D56736312FEAC6350063C4B2 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362A2FEAC6350063C4B2 /* Manrope-Bold.ttf */; };
+		D56736322FEAC6350063C4B2 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362D2FEAC6350063C4B2 /* Manrope-Medium.ttf */; };
+		D56736332FEAC6350063C4B2 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362F2FEAC6350063C4B2 /* Manrope-SemiBold.ttf */; };
+		D56736342FEAC6350063C4B2 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362C2FEAC6350063C4B2 /* Manrope-ExtraLight.ttf */; };
+		D56736352FEAC6350063C4B2 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362B2FEAC6350063C4B2 /* Manrope-ExtraBold.ttf */; };
+		D56736372FEAC6C10063C4B2 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736362FEAC6C10063C4B2 /* Fonts.swift */; };
+		D567363B2FEAC7F40063C4B2 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567363A2FEAC7F40063C4B2 /* ButtonStyle.swift */; };
+		D567363D2FEAC9510063C4B2 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567363C2FEAC9510063C4B2 /* ButtonType.swift */; };
+		D56736402FEAC9AA0063C4B2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567363F2FEAC9AA0063C4B2 /* Colors.swift */; };
+		D56736422FEACD750063C4B2 /* ExtensionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736412FEACD750063C4B2 /* ExtensionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +36,24 @@
 		D56735F52FE997130063C4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D56735F62FE997130063C4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56735F72FE997130063C4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D56735F92FE997130063C4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D56735FB2FE997130063C4B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D56735FC2FE997130063C4B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D56736052FE997260063C4B2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D56736192FEAAC400063C4B2 /* img_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_bottom.png; sourceTree = "<group>"; };
+		D567361B2FEAAD490063C4B2 /* img_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_intro.png; sourceTree = "<group>"; };
+		D567361D2FEAAD560063C4B2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D56736222FEAC2030063C4B2 /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
+		D56736232FEAC2030063C4B2 /* IntroController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroController.xib; sourceTree = "<group>"; };
+		D567362A2FEAC6350063C4B2 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		D567362B2FEAC6350063C4B2 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D567362C2FEAC6350063C4B2 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D567362D2FEAC6350063C4B2 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		D567362E2FEAC6350063C4B2 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		D567362F2FEAC6350063C4B2 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		D56736362FEAC6C10063C4B2 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		D567363A2FEAC7F40063C4B2 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		D567363C2FEAC9510063C4B2 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		D567363F2FEAC9AA0063C4B2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D56736412FEACD750063C4B2 /* ExtensionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +94,126 @@
 		D56735FD2FE997130063C4B2 /* WalkPaws */ = {
 			isa = PBXGroup;
 			children = (
-				D56735F32FE997130063C4B2 /* Models */,
+				D56736212FEAC1CC0063C4B2 /* Classes */,
+				D56736172FEAAC250063C4B2 /* Resources */,
 				D56735F42FE997130063C4B2 /* AppDelegate.swift */,
 				D56735F52FE997130063C4B2 /* Assets.xcassets */,
 				D56735F62FE997130063C4B2 /* Info.plist */,
-				D56735F82FE997130063C4B2 /* LaunchScreen.storyboard */,
-				D56735FA2FE997130063C4B2 /* Main.storyboard */,
 				D56735FB2FE997130063C4B2 /* SceneDelegate.swift */,
-				D56735FC2FE997130063C4B2 /* ViewController.swift */,
 			);
 			path = WalkPaws;
+			sourceTree = "<group>";
+		};
+		D56736172FEAAC250063C4B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D56736382FEAC7CD0063C4B2 /* Components */,
+				D56736282FEAC5E80063C4B2 /* Fonts */,
+				D56736182FEAAC350063C4B2 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D56736182FEAAC350063C4B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D56736272FEAC5890063C4B2 /* Intro */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D567361F2FEAC1680063C4B2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D56736202FEAC17D0063C4B2 /* Intro */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D56736202FEAC17D0063C4B2 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				D56736262FEAC2100063C4B2 /* LaunchScreen */,
+				D56736222FEAC2030063C4B2 /* IntroController.swift */,
+				D56736232FEAC2030063C4B2 /* IntroController.xib */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		D56736212FEAC1CC0063C4B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D56735F32FE997130063C4B2 /* Models */,
+				D567361F2FEAC1680063C4B2 /* Screens */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D56736262FEAC2100063C4B2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D56735F82FE997130063C4B2 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		D56736272FEAC5890063C4B2 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				D56736192FEAAC400063C4B2 /* img_bottom.png */,
+				D567361B2FEAAD490063C4B2 /* img_intro.png */,
+				D567361D2FEAAD560063C4B2 /* logo.png */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		D56736282FEAC5E80063C4B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D56736292FEAC62D0063C4B2 /* Manrope */,
+				D56736362FEAC6C10063C4B2 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D56736292FEAC62D0063C4B2 /* Manrope */ = {
+			isa = PBXGroup;
+			children = (
+				D567362A2FEAC6350063C4B2 /* Manrope-Bold.ttf */,
+				D567362B2FEAC6350063C4B2 /* Manrope-ExtraBold.ttf */,
+				D567362C2FEAC6350063C4B2 /* Manrope-ExtraLight.ttf */,
+				D567362D2FEAC6350063C4B2 /* Manrope-Medium.ttf */,
+				D567362E2FEAC6350063C4B2 /* Manrope-Regular.ttf */,
+				D567362F2FEAC6350063C4B2 /* Manrope-SemiBold.ttf */,
+			);
+			path = Manrope;
+			sourceTree = "<group>";
+		};
+		D56736382FEAC7CD0063C4B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D567363E2FEAC9980063C4B2 /* Colors */,
+				D56736392FEAC7D30063C4B2 /* Button */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D56736392FEAC7D30063C4B2 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D567363A2FEAC7F40063C4B2 /* ButtonStyle.swift */,
+				D567363C2FEAC9510063C4B2 /* ButtonType.swift */,
+				D56736412FEACD750063C4B2 /* ExtensionButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		D567363E2FEAC9980063C4B2 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				D567363F2FEAC9AA0063C4B2 /* Colors.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +277,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D567361E2FEAAD560063C4B2 /* logo.png in Resources */,
 				D56735FE2FE997130063C4B2 /* Assets.xcassets in Resources */,
 				D56736002FE997130063C4B2 /* LaunchScreen.storyboard in Resources */,
-				D56736012FE997130063C4B2 /* Main.storyboard in Resources */,
+				D567361C2FEAAD490063C4B2 /* img_intro.png in Resources */,
+				D567361A2FEAAC400063C4B2 /* img_bottom.png in Resources */,
+				D56736302FEAC6350063C4B2 /* Manrope-Regular.ttf in Resources */,
+				D56736312FEAC6350063C4B2 /* Manrope-Bold.ttf in Resources */,
+				D56736322FEAC6350063C4B2 /* Manrope-Medium.ttf in Resources */,
+				D56736332FEAC6350063C4B2 /* Manrope-SemiBold.ttf in Resources */,
+				D56736342FEAC6350063C4B2 /* Manrope-ExtraLight.ttf in Resources */,
+				D56736352FEAC6350063C4B2 /* Manrope-ExtraBold.ttf in Resources */,
+				D56736242FEAC2030063C4B2 /* IntroController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,9 +300,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D56736022FE997130063C4B2 /* AppDelegate.swift in Sources */,
+				D56736402FEAC9AA0063C4B2 /* Colors.swift in Sources */,
+				D567363D2FEAC9510063C4B2 /* ButtonType.swift in Sources */,
+				D56736422FEACD750063C4B2 /* ExtensionButton.swift in Sources */,
+				D56736372FEAC6C10063C4B2 /* Fonts.swift in Sources */,
 				D56736032FE997130063C4B2 /* SceneDelegate.swift in Sources */,
+				D567363B2FEAC7F40063C4B2 /* ButtonStyle.swift in Sources */,
 				D56736062FE997260063C4B2 /* UserModel.swift in Sources */,
-				D56736042FE997130063C4B2 /* ViewController.swift in Sources */,
+				D56736252FEAC2030063C4B2 /* IntroController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,14 +320,6 @@
 				D56735F72FE997130063C4B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D56735FA2FE997130063C4B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D56735F92FE997130063C4B2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -193,9 +337,7 @@
 				INFOPLIST_FILE = WalkPaws/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -225,9 +367,7 @@
 				INFOPLIST_FILE = WalkPaws/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
