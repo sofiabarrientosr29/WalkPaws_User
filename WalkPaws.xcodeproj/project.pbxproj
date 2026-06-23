@@ -14,7 +14,6 @@
 		D56736062FE997260063C4B2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736052FE997260063C4B2 /* UserModel.swift */; };
 		D567361A2FEAAC400063C4B2 /* img_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736192FEAAC400063C4B2 /* img_bottom.png */; };
 		D567361C2FEAAD490063C4B2 /* img_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = D567361B2FEAAD490063C4B2 /* img_intro.png */; };
-		D567361E2FEAAD560063C4B2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D567361D2FEAAD560063C4B2 /* logo.png */; };
 		D56736242FEAC2030063C4B2 /* IntroController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56736232FEAC2030063C4B2 /* IntroController.xib */; };
 		D56736252FEAC2030063C4B2 /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736222FEAC2030063C4B2 /* IntroController.swift */; };
 		D56736302FEAC6350063C4B2 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D567362E2FEAC6350063C4B2 /* Manrope-Regular.ttf */; };
@@ -28,6 +27,33 @@
 		D567363D2FEAC9510063C4B2 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567363C2FEAC9510063C4B2 /* ButtonType.swift */; };
 		D56736402FEAC9AA0063C4B2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567363F2FEAC9AA0063C4B2 /* Colors.swift */; };
 		D56736422FEACD750063C4B2 /* ExtensionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736412FEACD750063C4B2 /* ExtensionButton.swift */; };
+		D56736462FEADEBB0063C4B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736442FEADEBB0063C4B2 /* LoginController.swift */; };
+		D56736472FEADEBB0063C4B2 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56736452FEADEBB0063C4B2 /* LoginController.xib */; };
+		D56736492FEADED60063C4B2 /* FieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736482FEADED60063C4B2 /* FieldStyle.swift */; };
+		D567364B2FEADF280063C4B2 /* FieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567364A2FEADF280063C4B2 /* FieldType.swift */; };
+		D567364D2FEADFC80063C4B2 /* ExtensionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567364C2FEADFC80063C4B2 /* ExtensionField.swift */; };
+		D56736562FEAE15C0063C4B2 /* open_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736532FEAE15C0063C4B2 /* open_eye.png */; };
+		D56736572FEAE15C0063C4B2 /* icn_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736542FEAE15C0063C4B2 /* icn_phone.png */; };
+		D56736582FEAE15C0063C4B2 /* close_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736502FEAE15C0063C4B2 /* close_eye.png */; };
+		D56736592FEAE15C0063C4B2 /* icn_email.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736512FEAE15C0063C4B2 /* icn_email.png */; };
+		D567365A2FEAE15C0063C4B2 /* icn_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736522FEAE15C0063C4B2 /* icn_lock.png */; };
+		D567365B2FEAE15C0063C4B2 /* icn_user.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736552FEAE15C0063C4B2 /* icn_user.png */; };
+		D567365E2FEAE2020063C4B2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D567365D2FEAE2020063C4B2 /* back.png */; };
+		D56736602FEAE68F0063C4B2 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567365F2FEAE68F0063C4B2 /* BackButton.swift */; };
+		D56736632FEAE6B10063C4B2 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736622FEAE6B10063C4B2 /* ExtensionView.swift */; };
+		D56736662FEAEC0A0063C4B2 /* ExtensionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736652FEAEC0A0063C4B2 /* ExtensionController.swift */; };
+		D56736692FEAF89E0063C4B2 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736672FEAF89E0063C4B2 /* SplashController.swift */; };
+		D567366A2FEAF89E0063C4B2 /* SplashController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56736682FEAF89E0063C4B2 /* SplashController.xib */; };
+		D567366D2FEAFA310063C4B2 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567366B2FEAFA310063C4B2 /* RegisterController.swift */; };
+		D567366E2FEAFA310063C4B2 /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D567366C2FEAFA310063C4B2 /* RegisterController.xib */; };
+		D56736742FEB0AC70063C4B2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D56736732FEB0AC70063C4B2 /* logo.png */; };
+		D56736772FEB12360063C4B2 /* ExtensionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736762FEB12360063C4B2 /* ExtensionLabel.swift */; };
+		D567367B2FEB19970063C4B2 /* RecoverPasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D567367A2FEB19970063C4B2 /* RecoverPasswordController.xib */; };
+		D567367C2FEB19970063C4B2 /* RecoverPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736792FEB19970063C4B2 /* RecoverPasswordController.swift */; };
+		D567367F2FEB19A90063C4B2 /* CodePasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D567367E2FEB19A90063C4B2 /* CodePasswordController.xib */; };
+		D56736802FEB19A90063C4B2 /* CodePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567367D2FEB19A90063C4B2 /* CodePasswordController.swift */; };
+		D56736832FEB19B70063C4B2 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736812FEB19B70063C4B2 /* ChangePasswordController.swift */; };
+		D56736842FEB19B70063C4B2 /* ChangePasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56736822FEB19B70063C4B2 /* ChangePasswordController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +66,6 @@
 		D56736052FE997260063C4B2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D56736192FEAAC400063C4B2 /* img_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_bottom.png; sourceTree = "<group>"; };
 		D567361B2FEAAD490063C4B2 /* img_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_intro.png; sourceTree = "<group>"; };
-		D567361D2FEAAD560063C4B2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		D56736222FEAC2030063C4B2 /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
 		D56736232FEAC2030063C4B2 /* IntroController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroController.xib; sourceTree = "<group>"; };
 		D567362A2FEAC6350063C4B2 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
@@ -54,6 +79,33 @@
 		D567363C2FEAC9510063C4B2 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		D567363F2FEAC9AA0063C4B2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		D56736412FEACD750063C4B2 /* ExtensionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionButton.swift; sourceTree = "<group>"; };
+		D56736442FEADEBB0063C4B2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D56736452FEADEBB0063C4B2 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		D56736482FEADED60063C4B2 /* FieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStyle.swift; sourceTree = "<group>"; };
+		D567364A2FEADF280063C4B2 /* FieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldType.swift; sourceTree = "<group>"; };
+		D567364C2FEADFC80063C4B2 /* ExtensionField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionField.swift; sourceTree = "<group>"; };
+		D56736502FEAE15C0063C4B2 /* close_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_eye.png; sourceTree = "<group>"; };
+		D56736512FEAE15C0063C4B2 /* icn_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_email.png; sourceTree = "<group>"; };
+		D56736522FEAE15C0063C4B2 /* icn_lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_lock.png; sourceTree = "<group>"; };
+		D56736532FEAE15C0063C4B2 /* open_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_eye.png; sourceTree = "<group>"; };
+		D56736542FEAE15C0063C4B2 /* icn_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_phone.png; sourceTree = "<group>"; };
+		D56736552FEAE15C0063C4B2 /* icn_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_user.png; sourceTree = "<group>"; };
+		D567365D2FEAE2020063C4B2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		D567365F2FEAE68F0063C4B2 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		D56736622FEAE6B10063C4B2 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		D56736652FEAEC0A0063C4B2 /* ExtensionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionController.swift; sourceTree = "<group>"; };
+		D56736672FEAF89E0063C4B2 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		D56736682FEAF89E0063C4B2 /* SplashController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashController.xib; sourceTree = "<group>"; };
+		D567366B2FEAFA310063C4B2 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		D567366C2FEAFA310063C4B2 /* RegisterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		D56736732FEB0AC70063C4B2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D56736762FEB12360063C4B2 /* ExtensionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionLabel.swift; sourceTree = "<group>"; };
+		D56736792FEB19970063C4B2 /* RecoverPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordController.swift; sourceTree = "<group>"; };
+		D567367A2FEB19970063C4B2 /* RecoverPasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecoverPasswordController.xib; sourceTree = "<group>"; };
+		D567367D2FEB19A90063C4B2 /* CodePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePasswordController.swift; sourceTree = "<group>"; };
+		D567367E2FEB19A90063C4B2 /* CodePasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodePasswordController.xib; sourceTree = "<group>"; };
+		D56736812FEB19B70063C4B2 /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
+		D56736822FEB19B70063C4B2 /* ChangePasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +169,8 @@
 		D56736182FEAAC350063C4B2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D567365C2FEAE1FA0063C4B2 /* Button */,
+				D567364E2FEAE1480063C4B2 /* Icon */,
 				D56736272FEAC5890063C4B2 /* Intro */,
 			);
 			path = Images;
@@ -134,8 +188,15 @@
 			isa = PBXGroup;
 			children = (
 				D56736262FEAC2100063C4B2 /* LaunchScreen */,
+				D56736672FEAF89E0063C4B2 /* SplashController.swift */,
+				D56736682FEAF89E0063C4B2 /* SplashController.xib */,
 				D56736222FEAC2030063C4B2 /* IntroController.swift */,
 				D56736232FEAC2030063C4B2 /* IntroController.xib */,
+				D56736442FEADEBB0063C4B2 /* LoginController.swift */,
+				D56736452FEADEBB0063C4B2 /* LoginController.xib */,
+				D567366B2FEAFA310063C4B2 /* RegisterController.swift */,
+				D567366C2FEAFA310063C4B2 /* RegisterController.xib */,
+				D56736782FEB19750063C4B2 /* Recover Password */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -162,7 +223,7 @@
 			children = (
 				D56736192FEAAC400063C4B2 /* img_bottom.png */,
 				D567361B2FEAAD490063C4B2 /* img_intro.png */,
-				D567361D2FEAAD560063C4B2 /* logo.png */,
+				D56736732FEB0AC70063C4B2 /* logo.png */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -192,6 +253,10 @@
 		D56736382FEAC7CD0063C4B2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D56736752FEB12250063C4B2 /* Label */,
+				D56736642FEAEBED0063C4B2 /* Controller */,
+				D56736612FEAE6A40063C4B2 /* View */,
+				D56736432FEADE4A0063C4B2 /* Field */,
 				D567363E2FEAC9980063C4B2 /* Colors */,
 				D56736392FEAC7D30063C4B2 /* Button */,
 			);
@@ -204,6 +269,7 @@
 				D567363A2FEAC7F40063C4B2 /* ButtonStyle.swift */,
 				D567363C2FEAC9510063C4B2 /* ButtonType.swift */,
 				D56736412FEACD750063C4B2 /* ExtensionButton.swift */,
+				D567365F2FEAE68F0063C4B2 /* BackButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -214,6 +280,82 @@
 				D567363F2FEAC9AA0063C4B2 /* Colors.swift */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		D56736432FEADE4A0063C4B2 /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				D56736482FEADED60063C4B2 /* FieldStyle.swift */,
+				D567364A2FEADF280063C4B2 /* FieldType.swift */,
+				D567364C2FEADFC80063C4B2 /* ExtensionField.swift */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
+		D567364E2FEAE1480063C4B2 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				D567364F2FEAE1510063C4B2 /* Field */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		D567364F2FEAE1510063C4B2 /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				D56736502FEAE15C0063C4B2 /* close_eye.png */,
+				D56736512FEAE15C0063C4B2 /* icn_email.png */,
+				D56736522FEAE15C0063C4B2 /* icn_lock.png */,
+				D56736532FEAE15C0063C4B2 /* open_eye.png */,
+				D56736542FEAE15C0063C4B2 /* icn_phone.png */,
+				D56736552FEAE15C0063C4B2 /* icn_user.png */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
+		D567365C2FEAE1FA0063C4B2 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D567365D2FEAE2020063C4B2 /* back.png */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		D56736612FEAE6A40063C4B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D56736622FEAE6B10063C4B2 /* ExtensionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D56736642FEAEBED0063C4B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D56736652FEAEC0A0063C4B2 /* ExtensionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D56736752FEB12250063C4B2 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				D56736762FEB12360063C4B2 /* ExtensionLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		D56736782FEB19750063C4B2 /* Recover Password */ = {
+			isa = PBXGroup;
+			children = (
+				D56736792FEB19970063C4B2 /* RecoverPasswordController.swift */,
+				D567367A2FEB19970063C4B2 /* RecoverPasswordController.xib */,
+				D567367D2FEB19A90063C4B2 /* CodePasswordController.swift */,
+				D567367E2FEB19A90063C4B2 /* CodePasswordController.xib */,
+				D56736812FEB19B70063C4B2 /* ChangePasswordController.swift */,
+				D56736822FEB19B70063C4B2 /* ChangePasswordController.xib */,
+			);
+			path = "Recover Password";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,18 +419,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D567361E2FEAAD560063C4B2 /* logo.png in Resources */,
+				D56736562FEAE15C0063C4B2 /* open_eye.png in Resources */,
+				D567366E2FEAFA310063C4B2 /* RegisterController.xib in Resources */,
+				D56736572FEAE15C0063C4B2 /* icn_phone.png in Resources */,
+				D56736582FEAE15C0063C4B2 /* close_eye.png in Resources */,
+				D56736592FEAE15C0063C4B2 /* icn_email.png in Resources */,
+				D567366A2FEAF89E0063C4B2 /* SplashController.xib in Resources */,
+				D567365A2FEAE15C0063C4B2 /* icn_lock.png in Resources */,
+				D567365B2FEAE15C0063C4B2 /* icn_user.png in Resources */,
 				D56735FE2FE997130063C4B2 /* Assets.xcassets in Resources */,
 				D56736002FE997130063C4B2 /* LaunchScreen.storyboard in Resources */,
 				D567361C2FEAAD490063C4B2 /* img_intro.png in Resources */,
+				D56736742FEB0AC70063C4B2 /* logo.png in Resources */,
 				D567361A2FEAAC400063C4B2 /* img_bottom.png in Resources */,
 				D56736302FEAC6350063C4B2 /* Manrope-Regular.ttf in Resources */,
 				D56736312FEAC6350063C4B2 /* Manrope-Bold.ttf in Resources */,
 				D56736322FEAC6350063C4B2 /* Manrope-Medium.ttf in Resources */,
+				D567367B2FEB19970063C4B2 /* RecoverPasswordController.xib in Resources */,
 				D56736332FEAC6350063C4B2 /* Manrope-SemiBold.ttf in Resources */,
+				D56736842FEB19B70063C4B2 /* ChangePasswordController.xib in Resources */,
 				D56736342FEAC6350063C4B2 /* Manrope-ExtraLight.ttf in Resources */,
+				D567365E2FEAE2020063C4B2 /* back.png in Resources */,
 				D56736352FEAC6350063C4B2 /* Manrope-ExtraBold.ttf in Resources */,
+				D567367F2FEB19A90063C4B2 /* CodePasswordController.xib in Resources */,
 				D56736242FEAC2030063C4B2 /* IntroController.xib in Resources */,
+				D56736472FEADEBB0063C4B2 /* LoginController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,15 +454,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56736832FEB19B70063C4B2 /* ChangePasswordController.swift in Sources */,
+				D56736492FEADED60063C4B2 /* FieldStyle.swift in Sources */,
+				D56736632FEAE6B10063C4B2 /* ExtensionView.swift in Sources */,
 				D56736022FE997130063C4B2 /* AppDelegate.swift in Sources */,
 				D56736402FEAC9AA0063C4B2 /* Colors.swift in Sources */,
 				D567363D2FEAC9510063C4B2 /* ButtonType.swift in Sources */,
+				D56736662FEAEC0A0063C4B2 /* ExtensionController.swift in Sources */,
+				D56736692FEAF89E0063C4B2 /* SplashController.swift in Sources */,
+				D56736802FEB19A90063C4B2 /* CodePasswordController.swift in Sources */,
+				D567364D2FEADFC80063C4B2 /* ExtensionField.swift in Sources */,
+				D567366D2FEAFA310063C4B2 /* RegisterController.swift in Sources */,
 				D56736422FEACD750063C4B2 /* ExtensionButton.swift in Sources */,
 				D56736372FEAC6C10063C4B2 /* Fonts.swift in Sources */,
+				D56736772FEB12360063C4B2 /* ExtensionLabel.swift in Sources */,
 				D56736032FE997130063C4B2 /* SceneDelegate.swift in Sources */,
 				D567363B2FEAC7F40063C4B2 /* ButtonStyle.swift in Sources */,
+				D567364B2FEADF280063C4B2 /* FieldType.swift in Sources */,
 				D56736062FE997260063C4B2 /* UserModel.swift in Sources */,
 				D56736252FEAC2030063C4B2 /* IntroController.swift in Sources */,
+				D56736602FEAE68F0063C4B2 /* BackButton.swift in Sources */,
+				D56736462FEADEBB0063C4B2 /* LoginController.swift in Sources */,
+				D567367C2FEB19970063C4B2 /* RecoverPasswordController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

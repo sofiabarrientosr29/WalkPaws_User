@@ -47,6 +47,9 @@
                                 <constraint firstAttribute="width" secondItem="s7J-YE-xMi" secondAttribute="height" multiplier="296:49" priority="999" id="mOL-63-6Fx"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <connections>
+                                <action selector="startClicked:" destination="-1" eventType="touchUpInside" id="AWW-d1-rnW"/>
+                            </connections>
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l3B-wY-tnF" userLabel="View Register">
                             <rect key="frame" x="157.33333333333334" y="321.66666666666669" width="78.333333333333343" height="34"/>
@@ -60,6 +63,9 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwk-tp-EG1" userLabel="Button Register">
                                     <rect key="frame" x="48.333333333333314" y="0.0" width="30" height="34"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <connections>
+                                        <action selector="registerClicked:" destination="-1" eventType="touchUpInside" id="KwU-kr-v1t"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

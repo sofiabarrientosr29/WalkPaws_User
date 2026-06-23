@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="511.33333333333326" width="393" height="340.66666666666674"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hRL-dU-u8f">
-                                <rect key="frame" x="47.333333333333343" y="276.99999999999994" width="298.33333333333326" height="298.00000000000006"/>
+                                <rect key="frame" x="90" y="319.66666666666669" width="213" height="213.00000000000006"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hRL-dU-u8f" secondAttribute="height" multiplier="1:1" priority="999" id="JPH-iW-4wI"/>
                                 </constraints>
@@ -31,7 +31,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a2g-On-7Ya" secondAttribute="trailing" id="A17-tz-7Ub"/>
                             <constraint firstItem="hRL-dU-u8f" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="L01-aX-D7E"/>
                             <constraint firstItem="a2g-On-7Ya" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OeC-Th-2pb"/>
-                            <constraint firstItem="hRL-dU-u8f" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.35" id="jM5-PL-PeQ"/>
+                            <constraint firstItem="hRL-dU-u8f" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.25" id="jM5-PL-PeQ"/>
                             <constraint firstItem="hRL-dU-u8f" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="q5c-wk-Y5x"/>
                             <constraint firstAttribute="bottom" secondItem="a2g-On-7Ya" secondAttribute="bottom" id="uhL-pQ-cQy"/>
                             <constraint firstItem="a2g-On-7Ya" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.4" id="zHp-h7-m9Z"/>
@@ -45,6 +45,6 @@
     </scenes>
     <resources>
         <image name="img_bottom.png" width="536" height="465"/>
-        <image name="logo.png" width="1024" height="1024"/>
+        <image name="logo.png" width="494" height="505"/>
     </resources>
 </document>
