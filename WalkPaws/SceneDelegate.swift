@@ -17,8 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
-        let introController = IntroController(nibName: "IntroController", bundle: nil)
-        window.rootViewController = introController
+        let splashController = SplashController(nibName: "SplashController", bundle: nil)
+        window.rootViewController = splashController
         
         self.window = window
         window.makeKeyAndVisible()

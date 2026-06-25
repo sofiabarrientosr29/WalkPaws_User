@@ -15,6 +15,7 @@ class Colors
     // Green
     static let darkGreen = color("325A4B")
     static let grayGreen = color("DEDFD8")
+    static let lightGreyGreen = color("979891")
     static let lightGreen = color("668369")
     static let green = color("487162")
     

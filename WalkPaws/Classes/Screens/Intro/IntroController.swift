@@ -31,22 +31,31 @@ class IntroController: UIViewController
         labelTitle.textColor = Colors.darkGreen
         labelTitle.text = "Paseos que cambian vidas"
         
-        labelDescription.font = Fonts.Manrope.bold(20)
+        labelDescription.font = Fonts.Manrope.bold(18)
         labelDescription.textColor = Colors.green
         labelDescription.text = "Conecta con perros de refugios y ayúdales con el paseo que tanto necesitan"
         
-        buttonStart.setTitle("Comenzar", for: .normal)
         buttonStart.applyStyle(ButtonType.primary)
+        buttonStart.setTitle("Comenzar", for: .normal)
         
-        labelNew.font = Fonts.Manrope.bold(15)
+        labelNew.font = Fonts.Manrope.bold(17)
         labelNew.textColor = Colors.lightGreen
         labelNew.text = "¿Eres nuevo aquí?"
         
-        buttonRegister.setTitle("Regístrate", for: .normal)
         buttonRegister.applyStyle(ButtonType.label)
+        buttonRegister.setTitle("Regístrate", for: .normal)
 
     }
     
     // MARK: Buttons Methods
+    @IBAction func startClicked(_ sender: Any)
+    {
+        pushController(LoginController.fromNib())
+    }
+    
+    @IBAction func registerClicked(_ sender: Any)
+    {
+        pushController(RegisterController.fromNib())
+    }
     
 }
