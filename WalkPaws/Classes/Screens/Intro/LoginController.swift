@@ -27,7 +27,7 @@ class LoginController: UIViewController
         fieldEmail.applyFieldStyle(FieldType.primary, placeholder: "Correo electrónico", icon: "icn_email")
         fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock")
         
-        labelForgetPassword.font = Fonts.Manrope.semiBold(15)
+        labelForgetPassword.font = Fonts.Manrope.semiBold(16)
         labelForgetPassword.textColor = Colors.darkGreen
         labelForgetPassword.text = "Contraseña olvidada"
         

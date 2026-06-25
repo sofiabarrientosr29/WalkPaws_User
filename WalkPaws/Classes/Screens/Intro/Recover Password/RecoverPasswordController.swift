@@ -14,6 +14,7 @@ class RecoverPasswordController: UIViewController
     @IBOutlet weak var fieldEmail: UIView!
     @IBOutlet weak var buttonCode: UIButton!
     
+    // MARK: View lifecycle
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class RecoverPasswordController: UIViewController
         labelTitle.textColor = Colors.darkGreen
         labelTitle.text = "Recuperar Contraseña"
         
-        labelDescription.font = Fonts.Manrope.medium(15)
+        labelDescription.font = Fonts.Manrope.medium(16)
         labelDescription.textColor = Colors.green
         labelDescription.text = "Introduce tu correo electrónico y te enviaremos un código para recuperar el acceso a tu cuenta"
         
@@ -33,9 +34,10 @@ class RecoverPasswordController: UIViewController
 
     }
     
+    // MARK: Buttons Methods
     @IBAction func codeClicked(_ sender: Any)
     {
-        
+        pushController(CodePasswordController.fromNib())
     }
     
     

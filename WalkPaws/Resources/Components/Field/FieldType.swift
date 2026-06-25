@@ -20,13 +20,12 @@ class FieldType
         cornerRadius: 13
     )
     
-    static let primarySmall = FieldStyle(
+    static let code = FieldStyle(
         backgroundColor: Colors.grayGreen,
-        iconTintColor: Colors.darkGreen,
-        font: Fonts.Manrope.bold(15),
-        textColor: Colors.darkGreen,
-        placeholderFont: Fonts.Manrope.regular(12),
-        placeholderColor: Colors.lightGreyGreen,
-        cornerRadius: 13
+        font: Fonts.Manrope.bold(22),
+        textColor: Colors.black,
+        borderColor: Colors.lightGreen,
+        borderWidth: 1,
+        cornerRadius: 14
     )
 }

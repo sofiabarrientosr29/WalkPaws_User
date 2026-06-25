@@ -7,23 +7,38 @@
 
 import UIKit
 
-class ChangePasswordController: UIViewController {
-
-    override func viewDidLoad() {
+class ChangePasswordController: UIViewController
+{
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var labelDescription: UILabel!
+    @IBOutlet weak var fieldPassword: UIView!
+    @IBOutlet weak var fieldPasswordC: UIView!
+    
+    @IBOutlet weak var buttonConfirm: UIButton!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        labelTitle.font = Fonts.Manrope.bold(28)
+        labelTitle.textColor = Colors.darkGreen
+        labelTitle.text = "Nueva Contraseña"
+        
+        labelDescription.font = Fonts.Manrope.medium(16)
+        labelDescription.textColor = Colors.green
+        labelDescription.text = "Introduce tu nueva contraseña para acceder a tu cuenta"
+        
+        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock")
+        fieldPasswordC.applyFieldStyle(FieldType.primary, placeholder: "Confirmar Contraseña", icon: "icn_lock")
+        
+        buttonConfirm.applyStyle(ButtonType.primary)
+        buttonConfirm.setTitle("Confirmar", for: .normal)
+        
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func confirmClicked(_ sender: Any)
+    {
+        
     }
-    */
-
+    
 }

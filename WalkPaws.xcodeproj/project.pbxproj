@@ -54,6 +54,7 @@
 		D56736802FEB19A90063C4B2 /* CodePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567367D2FEB19A90063C4B2 /* CodePasswordController.swift */; };
 		D56736832FEB19B70063C4B2 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736812FEB19B70063C4B2 /* ChangePasswordController.swift */; };
 		D56736842FEB19B70063C4B2 /* ChangePasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56736822FEB19B70063C4B2 /* ChangePasswordController.xib */; };
+		D56736982FED82760063C4B2 /* CodeTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56736972FED82760063C4B2 /* CodeTextFieldManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		D567367E2FEB19A90063C4B2 /* CodePasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodePasswordController.xib; sourceTree = "<group>"; };
 		D56736812FEB19B70063C4B2 /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
 		D56736822FEB19B70063C4B2 /* ChangePasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordController.xib; sourceTree = "<group>"; };
+		D56736972FED82760063C4B2 /* CodeTextFieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextFieldManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 				D56736482FEADED60063C4B2 /* FieldStyle.swift */,
 				D567364A2FEADF280063C4B2 /* FieldType.swift */,
 				D567364C2FEADFC80063C4B2 /* ExtensionField.swift */,
+				D56736972FED82760063C4B2 /* CodeTextFieldManager.swift */,
 			);
 			path = Field;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				D56736602FEAE68F0063C4B2 /* BackButton.swift in Sources */,
 				D56736462FEADEBB0063C4B2 /* LoginController.swift in Sources */,
 				D567367C2FEB19970063C4B2 /* RecoverPasswordController.swift in Sources */,
+				D56736982FED82760063C4B2 /* CodeTextFieldManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,16 +36,16 @@ class RegisterController: UIViewController
         labelTitle.textColor = Colors.darkGreen
         labelTitle.text = "Crear Cuenta"
         
-        labelDescription.font = Fonts.Manrope.medium(15)
+        labelDescription.font = Fonts.Manrope.medium(16)
         labelDescription.textColor = Colors.darkGreen
         labelDescription.text = "Únete a WalkPaws y empieza a hacer la diferencia"
         
-        fieldName.applyFieldStyle(FieldType.primarySmall, placeholder: "Nombre", icon: "icn_user")
-        fieldSecondName.applyFieldStyle(FieldType.primarySmall, placeholder: "Apellidos", icon: "icn_user")
-        fieldEmail.applyFieldStyle(FieldType.primarySmall, placeholder: "Correo electrónico", icon: "icn_email")
-        fieldPhone.applyFieldStyle(FieldType.primarySmall, placeholder: "Número de teléfono", icon: "icn_phone")
-        fieldPassword.applyFieldStyle(FieldType.primarySmall, placeholder: "Contraseña", icon: "icn_lock")
-        fieldPasswordC.applyFieldStyle(FieldType.primarySmall, placeholder: "Confirmar Contraseña", icon: "icn_lock")
+        fieldName.applyFieldStyle(FieldType.primary, placeholder: "Nombre", icon: "icn_user")
+        fieldSecondName.applyFieldStyle(FieldType.primary, placeholder: "Apellidos", icon: "icn_user")
+        fieldEmail.applyFieldStyle(FieldType.primary, placeholder: "Correo electrónico", icon: "icn_email")
+        fieldPhone.applyFieldStyle(FieldType.primary, placeholder: "Número de teléfono", icon: "icn_phone")
+        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock")
+        fieldPasswordC.applyFieldStyle(FieldType.primary, placeholder: "Confirmar Contraseña", icon: "icn_lock")
         
         buttonSelect.applyStyle(ButtonType.square)
         buttonTerms.applyStyle(ButtonType.label)
