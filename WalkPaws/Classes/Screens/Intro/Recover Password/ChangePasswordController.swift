@@ -28,8 +28,8 @@ class ChangePasswordController: UIViewController
         labelDescription.textColor = Colors.green
         labelDescription.text = "Introduce tu nueva contraseña para acceder a tu cuenta"
         
-        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock")
-        fieldPasswordC.applyFieldStyle(FieldType.primary, placeholder: "Confirmar Contraseña", icon: "icn_lock")
+        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock", showEye: true,type: .password)
+        fieldPasswordC.applyFieldStyle(FieldType.primary, placeholder: "Confirmar Contraseña", icon: "icn_lock", showEye: true, type: .password)
         
         buttonConfirm.applyStyle(ButtonType.primary)
         buttonConfirm.setTitle("Confirmar", for: .normal)

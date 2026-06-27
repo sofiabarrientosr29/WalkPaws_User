@@ -24,8 +24,8 @@ class LoginController: UIViewController
         labelTitle.textColor = Colors.darkGreen
         labelTitle.text = "Iniciar Sesión"
         
-        fieldEmail.applyFieldStyle(FieldType.primary, placeholder: "Correo electrónico", icon: "icn_email")
-        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock")
+        fieldEmail.applyFieldStyle(FieldType.primary, placeholder: "Correo electrónico", icon: "icn_email", type: .email)
+        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock", showEye: true, type: .password)
         
         labelForgetPassword.font = Fonts.Manrope.semiBold(16)
         labelForgetPassword.textColor = Colors.darkGreen
@@ -40,6 +40,42 @@ class LoginController: UIViewController
     @IBAction func recoverPasswordClicked(_ sender: Any)
     {
         pushController(RecoverPasswordController.fromNib())
+    }
+    
+    @IBAction func enterClicked(_ sender: Any)
+    {
+        if !validateFields(fieldEmail, fieldPassword)
+        {
+            showAlert(title: "Campos incompletos", description: "Por favor, rellena todos los campos.")
+            return
+        }
+        
+        if !isValidEmail(fieldEmail.value)
+        {
+            showAlert(title: "Email no válido", description: "Por favor, introduce un correo electrónico válido.")
+            return
+        }
+        
+        Task
+        {
+            do
+            {
+                try await AuthRequest.shared.login(email: fieldEmail.value.lowercased(), password: fieldPassword.value)
+                
+                await MainActor.run
+                {
+                    self.showAlert(title: "Login correcto", description: "Has iniciado sesión correctamente.")
+                    // self.pushController(HomeController.fromNib())
+                }
+            }
+            catch
+            {
+                await MainActor.run
+                {
+                    self.showAlert(title: "Error", description: "Email o contraseña incorrectos.")
+                }
+            }
+        }
     }
     
 }

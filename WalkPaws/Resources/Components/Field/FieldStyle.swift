@@ -7,7 +7,8 @@
 
 import UIKit
 
-struct FieldStyle {
+struct FieldStyle
+{
     let backgroundColor: UIColor?
     let iconTintColor: UIColor?
     let font: UIFont?

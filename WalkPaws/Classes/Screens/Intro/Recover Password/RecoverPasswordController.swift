@@ -27,7 +27,7 @@ class RecoverPasswordController: UIViewController
         labelDescription.textColor = Colors.green
         labelDescription.text = "Introduce tu correo electrónico y te enviaremos un código para recuperar el acceso a tu cuenta"
         
-        fieldEmail.applyFieldStyle(FieldType.primary, placeholder: "Correo electrónico", icon: "icn_email")
+        fieldEmail.applyFieldStyle(FieldType.primary, placeholder: "Correo electrónico", icon: "icn_email", type: .email)
         
         buttonCode.applyStyle(ButtonType.primary)
         buttonCode.setTitle("Enviar código", for: .normal)
