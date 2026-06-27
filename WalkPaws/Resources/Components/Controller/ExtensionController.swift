@@ -37,6 +37,27 @@ extension UIViewController {
             present(controller, animated: false)
         }
     }
+    
+    func popController(_ controller: UIViewController, animated: Bool = true)
+    {
+        if let navigationController
+        {
+            navigationController.setViewControllers([controller], animated: animated)
+        }
+        else
+        {
+            let transition = CATransition()
+            transition.duration = 0.3
+            transition.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+            transition.type = .reveal
+            transition.subtype = .fromLeft
+
+            view.window?.layer.add(transition, forKey: kCATransition)
+
+            controller.modalPresentationStyle = .fullScreen
+            present(controller, animated: false)
+        }
+    }
 
     func hideKeyboardWhenTappedAround() {
         let tap = UITapGestureRecognizer(

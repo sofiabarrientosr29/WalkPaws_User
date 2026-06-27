@@ -24,6 +24,7 @@ class CodePasswordController: UIViewController
     @IBOutlet weak var buttonCode: UIButton!
     
     private let codeManager = CodeTextFieldManager()
+    var email: String?
     
     // MARK: View lifecycle
     override func viewDidLoad()
@@ -53,12 +54,58 @@ class CodePasswordController: UIViewController
     // MARK: Buttons Methods
     @IBAction func confirmClicked(_ sender: Any)
     {
-        pushController(ChangePasswordController.fromNib())
+        let code = codeManager.getCode()
+        
+        if code.count != 5
+        {
+            showAlert(title: "Código incompleto", description: "Introduce los 5 números del código.")
+            return
+        }
+        
+        Task
+        {
+            do
+            {
+                try await AuthRequest.shared.verifyRecoveryCode(email: email ?? "", code: code)
+                
+                await MainActor.run
+                {
+                    let controller = ChangePasswordController.fromNib()
+                    controller.email = self.email
+                    self.pushController(controller)
+                }
+            }
+            catch
+            {
+                await MainActor.run
+                {
+                    self.showAlert(title: "Código incorrecto", description: "El código no es válido o ha caducado.")
+                }
+            }
+        }
     }
     
     @IBAction func resendCodeClicked(_ sender: Any)
     {
-        pushController(ChangePasswordController.fromNib())
+        Task
+        {
+            do
+            {
+                try await AuthRequest.shared.sendRecoveryCode(email: email ?? "")
+                
+                await MainActor.run
+                {
+                    self.showAlert(title: "Código enviado", description: "Te hemos enviado un nuevo código.")
+                }
+            }
+            catch
+            {
+                await MainActor.run
+                {
+                    self.showAlert(title: "Error", description: "Ha habido un problema al enviar el correo")
+                }
+            }
+        }
     }
     
 }

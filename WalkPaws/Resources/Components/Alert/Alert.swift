@@ -27,15 +27,13 @@ extension UIViewController
         return true
     }
     
-    func showAlert(title: String, description: String)
+    func showAlert(title: String, description: String, onAccept: (() -> Void)? = nil)
     {
-        let alert = UIAlertController(
-            title: title,
-            message: description,
-            preferredStyle: .alert
-        )
+        let alert = UIAlertController(title: title, message: description, preferredStyle: .alert)
         
-        alert.addAction(UIAlertAction(title: "Aceptar", style: .default))
+        alert.addAction(UIAlertAction(title: "Aceptar", style: .default) { _ in
+            onAccept?()
+        })
         
         present(alert, animated: true)
     }

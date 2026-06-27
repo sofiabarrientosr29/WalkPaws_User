@@ -39,7 +39,9 @@ class LoginController: UIViewController
     // MARK: Buttons Methods
     @IBAction func recoverPasswordClicked(_ sender: Any)
     {
-        pushController(RecoverPasswordController.fromNib())
+        let controller = RecoverPasswordController.fromNib()
+        controller.email = fieldEmail.value
+        pushController(controller)
     }
     
     @IBAction func enterClicked(_ sender: Any)

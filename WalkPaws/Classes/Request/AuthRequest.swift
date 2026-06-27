@@ -29,4 +29,29 @@ class AuthRequest
     {
         try await SupabaseManager.shared.client.auth.signIn(email: email, password: password)
     }
+    
+    func sendRecoveryCode(email: String) async throws
+    {
+        try await SupabaseManager.shared.client.functions.invoke("send-recovery-code", options: FunctionInvokeOptions( body: ["email": email.lowercased()]))
+    }
+    
+    func verifyRecoveryCode(email: String, code: String) async throws
+    {
+        try await SupabaseManager.shared.client.functions.invoke("verify-recovery-code", options: FunctionInvokeOptions(
+            body: [
+                "email": email.lowercased(),
+                "code": code
+            ])
+        )
+    }
+    
+    func changePassword(email: String, newPassword: String) async throws
+    {
+        try await SupabaseManager.shared.client.functions.invoke("change-password", options: FunctionInvokeOptions(
+            body: [
+                "email": email.lowercased(),
+                "password": newPassword
+            ])
+        )
+    }
 }

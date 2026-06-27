@@ -16,6 +16,8 @@ class ChangePasswordController: UIViewController
     
     @IBOutlet weak var buttonConfirm: UIButton!
     
+    var email: String?
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -28,17 +30,58 @@ class ChangePasswordController: UIViewController
         labelDescription.textColor = Colors.green
         labelDescription.text = "Introduce tu nueva contraseña para acceder a tu cuenta"
         
-        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock", showEye: true,type: .password)
+        fieldPassword.applyFieldStyle(FieldType.primary, placeholder: "Contraseña", icon: "icn_lock", showEye: true, type: .password)
         fieldPasswordC.applyFieldStyle(FieldType.primary, placeholder: "Confirmar Contraseña", icon: "icn_lock", showEye: true, type: .password)
         
         buttonConfirm.applyStyle(ButtonType.primary)
         buttonConfirm.setTitle("Confirmar", for: .normal)
-        
     }
 
     @IBAction func confirmClicked(_ sender: Any)
     {
+        if !validateFields(fieldPassword, fieldPasswordC)
+        {
+            showAlert(title: "Campos incompletos", description: "Por favor, rellena todos los campos.")
+            return
+        }
         
+        if fieldPassword.value != fieldPasswordC.value
+        {
+            showAlert(title: "Contraseñas distintas", description: "Las contraseñas no coinciden.")
+            return
+        }
+        
+        guard let email, !email.isEmpty else
+        {
+            showAlert(title: "Error", description: "No se encontró el correo electrónico.")
+            return
+        }
+        
+        Task
+        {
+            do
+            {
+                try await AuthRequest.shared.changePassword(
+                    email: email,
+                    newPassword: fieldPassword.value
+                )
+                
+                await MainActor.run
+                {
+                    self.showAlert(title: "Contraseña cambiada", description: "Ya puedes iniciar sesión con tu nueva contraseña.",
+                        onAccept: {
+                            self.popController(LoginController.fromNib())
+                        }
+                    )
+                }
+            }
+            catch
+            {
+                await MainActor.run
+                {
+                    self.showAlert(title: "Error", description: "No se pudo cambiar la contraseña.")
+                }
+            }
+        }
     }
-    
 }
